@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ranisans <ranisans@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server-auth db.json --port 4000"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "json-server-auth": "^2.0.2"
+  }
+}
